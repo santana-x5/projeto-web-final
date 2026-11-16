@@ -1,0 +1,51 @@
+/* Remove margens padrão do navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo{
+    background-color: #1b365d;
+    padding: 18px 40px;
+}
+
+.topo-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: #ffffff;
+    font-family: Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo-destaque{
+    color: #f59e0b;
+}
+
+.menu-lista{
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+
+.menu-link{
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+/* Muda para amarelo ao passar o mouse */
+.menu-link:hover{
+    color: #f59e0b;
+}
