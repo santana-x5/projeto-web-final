@@ -137,3 +137,32 @@ body{
 .topo-link:hover{
     background-color: #d97706;
 }
+
+.linha{
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    width: 100%;
+    padding: 16px 24px;
+}
+
+.linha-lista{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.linha-item a{
+    color: #0f294a;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.linha-item a:hover{
+    color: #f59e0b
+}
