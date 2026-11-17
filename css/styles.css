@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
 /* Remove margens padrão do navegador */
 *{
     margin: 0;
@@ -90,10 +91,12 @@ body{
 
 .topo-span{
     display: inline-block;
-    background-color: #f59e0b;
+    background-color: #ffcf4a;
     color: #1b365d;
+    font-family: 'Inter', sans-serif;
     font-size: 0.75rem;
-    font-weight: 800;
+    font-weight:  800;
+    letter-spacing: 0.5px;
     padding: 4px 10px;
     border-radius: 4px;
     margin-bottom: 16px;
@@ -118,10 +121,13 @@ body{
 
 .topo-link{
     display: inline-block;
-    background-color: #f59e0b;
+    background-color: #ffcf4a;
     color: #1b365d;
-    font-weight: bold;
+    font-weight: 800 bold;
+    font-family: 'Inter', sans-serif;
     font-size: 0.95rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
     text-decoration: none;
     padding: 14px 24px;
     border-radius: 6px;
