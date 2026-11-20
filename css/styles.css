@@ -26,7 +26,7 @@
 }
 
 .logo-destaque{
-    color: rgb(245, 241, 0);
+    color: rgb(250, 177, 19);
 }
 
 .menu-lista{
@@ -46,9 +46,16 @@
     font-weight: bold;
 }
 
+.menu-item a:hover{
+    color: rgb(250, 177, 19);
+    transition: 0.5s ease;
+}
+
 .topo{
     height: 598px;
-    background-image: url(/img/img_topo.png);
+    background-image:
+    linear-gradient(rgba(15, 41, 74, 0.70)), 
+    url(/img/img_topo.png);
     background-size: cover;
     background-position: center;
 }
@@ -69,8 +76,220 @@
     color: black;
     width: fit-content;
     padding: 10px 15px;
-    border-radius: 15px;
+    border-radius: 5px;
     font-family: Georgia, serif;
     font-size: 0.75rem;
     font-weight: bold;
+}
+
+.topo-titulo{
+    font-family: Georgia, serif;
+    font-size: 3.35rem;
+    padding: 15px;
+    line-height: 1.2;
+}
+
+.topo-paragrafo{
+    font-family: Georgia, Times;
+    font-size: 1.2rem;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.botoes{
+    display: flex;
+    gap: 40px;
+    margin: 15px;
+}
+
+.topo-link{
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color: rgb(250, 177, 19);
+    color: black;
+    width: fit-content;
+    padding: 20px 20px;
+    border-radius: 5px;
+    font-family: Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.topo-link:hover{
+    transform: translateY(-3px);
+}
+
+.linha-lista{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    list-style: none;
+}
+
+.lista{
+    border-bottom: 1px solid rgb(61, 61, 61);
+    padding: 15px 0;
+}
+.linha-lista a{
+    text-decoration: none;
+    color:black;
+    font-family: Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.linha-lista a:hover{
+    color: rgb(250, 177, 19);
+    transition: 0.5s  ease;
+}
+
+.noticias{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1.65fr 1fr;
+    gap: 24px;
+    max-width: 1200px;
+}
+
+.noticia-tema{
+    border-left: 4px solid rgb(250, 177, 19);
+    margin: 15px;
+    font-family: Georgia, serif;
+    font-size:  1.85rem;
+    padding: 15px;
+}
+
+.noticia-destaque{
+    flex: 1.5;
+    border: 1px solid #e2e8f0;
+    width: fit-content;
+    border-radius: 16px;
+    height: 530px;
+    margin: 20px;
+}
+
+.noticia-destaque-img{
+    width: 730px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.noticia-data{
+    margin: 15px;
+}
+
+.noticias-destaque-titulo{
+    margin: 15px;
+    font-family: Georgia, serif;
+    font-size: 1.35rem;
+}
+
+.noticia-destaque-resumo{
+    margin: 15px;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+}
+
+
+.noticia-lista-card{
+    margin-top: 100px;
+    border: 1px solid #e2e8f0;
+    height: 530px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.noticia-lista{
+    margin-top: 100px;
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 92%;
+}
+
+.hr{
+    margin-top: 10px;
+}
+
+.noticia-item-titulo{
+    font-family: Georgia, serif;
+    font-size: 1rem;
+}
+
+.noticia-data{
+    font-family: Georgia, serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+.link-titulo{
+    border-left: 4px solid rgb(250, 177, 19);
+    margin: 15px;
+    font-family: Georgia, serif;
+    font-size:  1.85rem;
+    padding: 15px;
+}
+
+.link-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    height: 300px;
+}
+
+.link-governo{
+    border: 2px solid #e2e8f0;
+    height: 160px;
+    margin: 40px;
+    border-radius: 13px;
+}
+
+.link-diario{
+    border: 2px solid black;
+    height: 160px;
+    margin-right: 40px;
+}
+
+.link-portal,
+.link-paragrafo{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.link-portal{
+    margin: 30px;
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 1.20rem;
+    font-weight: bold;
+    height: 100px;
+}
+
+.link-paragrafo{
+    margin-top: -80px;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.link-portal:hover{
+    color: rgb(250, 177, 19);
+    transition: 0.5s ease;
+}
+
+.rodape{
+    background-color: #1B365D;
+    padding: 15px;
+}
+
+.rodape-titulo{
+    color: #ffffff;
+    margin-left: 500px;
 }
