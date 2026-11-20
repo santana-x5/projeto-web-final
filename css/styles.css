@@ -5,9 +5,9 @@
 }
 
 .cabecalho{
-    background-color: #1b365d;
-    padding: 20px 24px;
+    background-color: #1B365D;
     width: 100%;
+    height: 680px;
 }
 
 .cabecalho-container{
@@ -19,6 +19,58 @@
 .logo{
     color: #ffffff;
     font-family: Georgia, serif;
-    font-size: 1.4rem;
+    font-size: 1.65rem;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.logo-destaque{
+    color: rgb(245, 241, 0);
+}
+
+.menu-lista{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+}
+
+.menu-item a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.topo{
+    height: 598px;
+    background-image: url(/img/img_topo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.topo-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+    color:#ffffff;
+    
+}
+
+.topo-span{
+    margin-top: 90px;
+    margin-left: 15px;
+    background-color: rgb(250, 177, 19);
+    color: black;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-family: Georgia, serif;
+    font-size: 0.75rem;
     font-weight: bold;
 }
