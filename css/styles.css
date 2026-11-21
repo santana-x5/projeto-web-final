@@ -412,3 +412,62 @@
   align-items: center;
   justify-content: center;
 }
+
+.comparativo{
+    margin: 40px 170px;
+}
+
+.versus{
+    font-family: georgia, serif;
+    font-size: 50px;
+    color: #1B365D;
+    margin-bottom: 20px;
+    
+}
+
+.comparativo table{
+    background-color: #ffffff;
+    width: 50%;
+    font-family: arial, serif;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.comparativo thead th{
+    background-color: #214c7a;
+    color: white;
+    font-weight: 600;
+    padding: 16px 24px;
+}
+
+.semc{
+    padding-left: 50px;
+    font-family: Arial, serif;
+    font-size: 20px;
+    font-weight: 550;
+    color: #2e689e;
+}
+
+.comparativo tbody td{
+padding: 20px 100px;
+border-bottom: 1px solid #67696d;
+}
+
+.centralizado{
+    
+ 
+}
+
+.comparativo td.Sim{
+color: #2e8b57;
+font-weight: 700;
+}
+
+.comparativo td.nao{
+color: #df1010;
+font-weight: 700;
+}
