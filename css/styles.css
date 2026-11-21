@@ -471,3 +471,123 @@ font-weight: 700;
 color: #df1010;
 font-weight: 700;
 }
+
+
+
+/* pagina 3-1 ou 5 todo o css dela: */
+
+body{
+    background-color: #f0f3f8;
+}
+
+.title{
+    font-family: Georgia, serif;
+    font-size: 2.55rem;
+    margin: 35px 15px;
+    color: #16324f;
+}
+
+.title-paragrafo{
+    font-family: Georgia, serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #616263;
+    margin-left: 15px;
+    margin-top: -25px;
+}
+
+.formulario{
+    border: 1px solid #cbcdcf;
+    border-radius: 10px;
+    background-color: #fafafa;
+    margin-left: 15px;
+    margin-top: 45px;
+    height: 630px;
+    width: 700px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.title-formulario{
+    display: flex;
+    justify-content: left;
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #16324f;
+}
+
+.form-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-grid label{
+    font-family: Georgia, serif;
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #16324f;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.form-grid input{
+    height: 50px;
+    margin-left: 23px;
+    margin-right: 25px;
+    background-color: #eceff1;
+    border: 1px solid #cbcdcf;
+    border-radius: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: -10px;
+}
+
+.form-grid textarea{
+    height: 100px;
+    margin-left: 23px;
+    margin-right: 25px;
+    background-color: #eceff1;
+    border: 1px solid #cbcdcf;
+    border-radius: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: -10px;
+}
+
+.btn-wht{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.btn-btn{
+    padding: 20px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(250, 194, 41);
+    font-family: Georgia, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn-wht:hover,
+.btn-btn:hover{
+    transform: translateY(-2px);
+}
+
+.back{
+    width: fit-content;
+    padding: 20px;
+}
+
+.back-link{
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.back-link:hover{
+    color: rgb(250, 194, 41);
+    transition: 0,3s ease;
+}
