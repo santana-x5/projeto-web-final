@@ -324,11 +324,51 @@
 }
 
 .conteudo-premium{
-    width: 50%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 600px;
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 8px;
     overflow:hidden;
     border: 1px solid #e2e8f0;
-    margin: 24px; 
+    margin: 24px 30px; 
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+
+}
+
+.image-premium {
+  width: 100%;
+  height: auto;       
+  object-fit: contain;
+}
+
+.selo-premium{
+    background-color: #eab308;
+    color: #111827;
+    font-family: arial, sans-serif;
+    display:  inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 22px 26px 10px;
+}
+
+.conteudo-premium p{
+    margin: 0 26px 24px;
+    line-height: 1.1;
+}
+
+.valor {
+    font-family: arial, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #16324f;
+}
+
+.mes{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #475569;
+    margin-left: 2px;
 }
