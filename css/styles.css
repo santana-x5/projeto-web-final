@@ -595,6 +595,7 @@ body{
 
 .back-link{
     text-decoration: none;
+    color: #16324f;
     font-family: Georgia, serif;
     font-size: 1rem;
     font-weight: bold;
@@ -602,5 +603,5 @@ body{
 
 .back-link:hover{
     color: rgb(250, 194, 41);
-    transition: 0,3s ease;
+    transition: 0.5s ease;
 }
