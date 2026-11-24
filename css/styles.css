@@ -301,15 +301,6 @@
     height: 82px;
 }
 
-.menu-lista{
-    display: flex;
-    margin: 30px;
-    justify-content: space-between;
-    align-items: center;
-    gap: 28px;
-    list-style: none;
-}
-
 .menu-item{
     color: #ffffff;
     text-decoration: none;
