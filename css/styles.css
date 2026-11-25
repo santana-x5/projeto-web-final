@@ -725,3 +725,112 @@ box-sizing: border-box;
     color: #ffffff;
     margin-left: 500px;
 }
+
+/* css pagina 2-1 borges */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+ 
+ body{
+ margin: 0;
+background-color: rgb(232, 225, 218)
+ }
+
+#t2{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: white;
+    
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+ 
+ .container2{
+    display: flex;
+    gap: 50px;
+    padding-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .cabecalho2{
+     background-color: #1d3a5c;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     padding-left: 40px;
+     padding-right: 40px;
+     width: 100%;
+ }
+
+ #texto-meio{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #1d3a5c;
+   padding-top: 20px;
+   margin-left: 40px;
+   font-weight: 700;
+   
+
+ }
+
+ .ah{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1d3a5c;
+    font-size: 25px;
+    padding-left: 20px;
+}
+    
+.ah2{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.terciario{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color:grey;
+   font-size: 25px;
+   padding-left: 20px;
+}
+
+.bloco{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ padding-top: 50px;
+  background-color: white;
+  color: white;
+     margin-top: 60px;
+     margin-left: 100px;
+     margin-right: 100px;
+     margin-bottom: 60px;
+     border-radius: 12px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+
+}
+
+p{ color: black;
+padding-left: 20px;}
+
+.bvoltar{
+  display: block;
+  margin: 30px 40px;
+  color: #1d3a5c;
+  font-weight: bold;
+  
+}
+
+.rdp {
+  background-color: #1d3a5c;
+  color: #b8c4d6;
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.rdp b {
+  color: white;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
