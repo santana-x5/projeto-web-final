@@ -487,7 +487,8 @@ body{
 .title{
     font-family: Georgia, serif;
     font-size: 2.55rem;
-    margin: 35px 15px;
+    margin-top: 30px;
+    margin-left: 35px;
     color: #16324f;
 }
 
@@ -497,7 +498,7 @@ body{
     font-weight: bold;
     color: #616263;
     margin-left: 15px;
-    margin-top: -25px;
+    margin-top: 15px;
 }
 
 .formulario{
@@ -805,5 +806,9 @@ padding-left: 20px;}
   color: #1d3a5c;
   font-weight: bold;
   
+}
+
+.back-link{
+    margin-left: 15px;
 }
 
