@@ -749,21 +749,6 @@ background-color: rgb(232, 225, 218)
     margin-right: 0px;
  }
  
- .container2{
-    display: flex;
-    gap: 50px;
-    padding-left: 0;
-    font-family: Arial, Helvetica, sans-serif;
- }
-
- .cabecalho2{
-     background-color: #1d3a5c;
-     padding-top: 30px;
-     padding-bottom: 30px;
-     padding-left: 40px;
-     padding-right: 40px;
-     width: 100%;
- }
 
  #texto-meio{
    font-family: Georgia, 'Times New Roman', Times, serif;
@@ -822,15 +807,3 @@ padding-left: 20px;}
   
 }
 
-.rdp {
-  background-color: #1d3a5c;
-  color: #b8c4d6;
-  padding: 40px;
-  margin-top: 60px;
-}
-
-.rdp b {
-  color: white;
-  font-family: Georgia, serif;
-  font-size: 20px;
-}
