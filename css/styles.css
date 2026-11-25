@@ -374,13 +374,6 @@
    flex-wrap: wrap;
 }
 
-.vantagens h2 {
-    font-family: georgia, serif;
-    font-size: 40px;
-    color: #1B365D;
-    margin-bottom: 50px;
-}
-
 .vantagens li{
     display: flex;
     font-family: georgia, serif;
